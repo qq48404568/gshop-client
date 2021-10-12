@@ -1,8 +1,10 @@
 # gshop-client
 
+![badges 1](https://img.shields.io/badge/author-RyangXie-green.svg)![badges 2](https://img.shields.io/badge/license-MIT-blue.svg)![badges 3](https://img.shields.io/badge/build-passing-brightgreen.svg)
+
 > A Vue.js project
 
-## Build Setup
+## Build Setup  
 
 ``` bash
 # install dependencies
