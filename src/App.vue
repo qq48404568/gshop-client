@@ -14,7 +14,7 @@ export default {
     FooterGuide
   },
   computed:{
-    ...mapActions(['getAddress'])
+    ...mapActions(['getAddress','getUserInfo'])
   },
   // async mounted() {
   //   //测试获取后台接口数据
@@ -22,6 +22,7 @@ export default {
   //   console.log(result);
   // },
   mounted() {
+    this.$store.dispatch('getUserInfo')
     // this.$store.dispatch('getAddress')
   },
 }
