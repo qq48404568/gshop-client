@@ -14,7 +14,6 @@
         </span>
       </router-link>
     </HeaderTop>
-router-link
     <!--首页导航-->
     <nav class="msite_nav">
       <div class="swiper-container" v-if="categorys.length">

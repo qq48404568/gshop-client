@@ -4,7 +4,7 @@
 
 > A Vue.js project
 
-## Build Setup  
+## 项目运行  
 
 ``` bash
 # install dependencies
@@ -21,6 +21,86 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+```
+|-- gshop-client 项目名称
+    |-- .babelrc 预设插件
+    |-- .editorconfig 代码规范
+    |-- .gitignore 忽略文件
+    |-- .postcssrc.js 添加浏览器私缀
+    |-- index.html 入口html文件
+    |-- build webpack 配置文件
+    |-- config 项目打包路径
+    |-- src 源码目录
+    |   |-- App.vue 页面入口文件
+    |   |-- main.js 程序入口文件，加载各种公共组件
+    |   |-- api 请求接口
+    |   |   |-- ajax.js 接口调配文件
+    |   |   |-- index.js 获取后端接口数据
+    |   |-- assets
+    |   |   |-- logo.png
+    |   |-- common
+    |   |   |-- stylus
+    |   |       |-- mixins.styl
+    |   |-- components
+    |   |   |-- AlertTip
+    |   |   |   |-- AlertTip.vue
+    |   |   |-- CartControl
+    |   |   |   |-- CartControl.vue
+    |   |   |-- Food
+    |   |   |   |-- Food.vue
+    |   |   |-- FooterGuide
+    |   |   |   |-- FooterGuide.vue
+    |   |   |-- HeaderTop
+    |   |   |   |-- HeaderTop.vue
+    |   |   |-- ShopCart
+    |   |   |   |-- ShopCart.vue
+    |   |   |-- ShopHeader
+    |   |   |   |-- ShopHeader.vue
+    |   |   |-- ShopList
+    |   |   |   |-- ShopList.vue
+    |   |   |-- Star
+    |   |       |-- Star.vue
+    |   |-- filters
+    |   |-- mock
+    |   |   |-- data.json
+    |   |   |-- mockServer.js
+    |   |-- pages
+    |   |   |-- Login
+    |   |   |   |-- Login.vue
+    |   |   |-- MSite
+    |   |   |   |-- MSite.vue
+    |   |   |-- Order
+    |   |   |   |-- Order.vue
+    |   |   |-- Profile
+    |   |   |   |-- Profile.vue
+    |   |   |-- Search
+    |   |   |   |-- Search.vue
+    |   |   |-- Shop
+    |   |       |-- Shop.vue
+    |   |       |-- ShopGoods
+    |   |       |   |-- ShopGoods.vue
+    |   |       |-- ShopInfo
+    |   |       |   |-- ShopInfo.vue
+    |   |       |-- ShopRatings
+    |   |           |-- ShopRatings.vue
+    |   |-- router
+    |   |   |-- index.js
+    |   |-- store
+    |       |-- actions.js
+    |       |-- getters.js
+    |       |-- index.js
+    |       |-- mutation-types.js
+    |       |-- mutations.js
+    |       |-- state.js
+    |-- static
+        |-- .gitkeep
+        |-- css
+            |-- reset.css
+
+```
+
+
 
 # day01
 

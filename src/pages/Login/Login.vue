@@ -112,9 +112,6 @@
             }
           }
         }
-
-
-
       },
 
       showAlert(alertText) {

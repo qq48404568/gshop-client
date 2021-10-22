@@ -1,7 +1,7 @@
 <template>
   <div class="shop-header">
     <nav class="shop-nav" :style="{backgroundImage: `url(${info.bgImg})`}">
-      <a class="back" @click="$router.back()">
+      <a class="back" @click="goMsite">
         <i class="iconfont icon-arrow_left"></i>
       </a>
     </nav>
@@ -131,6 +131,10 @@
 
       toggleSupportShow () {
         this.supportShow = !this.supportShow
+      },
+      goMsite(){
+        // this.$router.push('/msite')
+        this.$router.go(-1)
       }
     }
   }

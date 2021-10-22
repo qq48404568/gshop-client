@@ -21,7 +21,8 @@ export default new Router({
       path:'/msite',
       component:MSite,
       meta:{
-        showFooter:true
+        showFooter:true,  
+        keepAlive: true
       }
     },
     {
