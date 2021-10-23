@@ -73,11 +73,19 @@
 
 
 <script>
+  // import moment from 'moment';
+  import { compareAsc, format } from 'date-fns'
   import BScroll from 'better-scroll'
   import {mapState, mapGetters} from 'vuex'
   import Star from '../../../components/Star/Star.vue'
 
   export default {
+    filters:{
+      'date-format':function(value,formatStr='yyyy-MM-dd hh:MM:ss'){
+        // return moment(value).format(formatStr)
+        return format(value,formatStr)
+      }
+    },
 
     data () {
       return {

@@ -335,4 +335,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     1). 缓存路由组件对象
     2). 路由组件懒加载
     3). 图片司加载: vue-lazyload
-    4). 分析打包文件并优化 
+    4). 分析打包文件并优化:npm run build --report
